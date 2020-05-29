@@ -1,0 +1,53 @@
+
+FULLNAME                                  INSURANCE                     
+----------------------------------------- ------------------------------
+Virginia Harding                          Medicare                      
+Anita Singh                               HMO Illinois                  
+John Wilson                               Medicare                      
+
+
+COUNT(DESCRIPTION) AVERAGECOST
+------------------ -----------
+                 3     4733.33
+
+
+INSURANCE                      VISITCOUNT
+------------------------------ ----------
+BCBS PPO                                2
+Medicare                                2
+HMO Illinois                            3
+
+
+ SUM(COST)
+----------
+       700
+
+
+DOCT NAME                   AVG(AGE)
+---- -------------------- ----------
+D101 Doom                       45.5
+K175 Knudtson                     55
+M223 Martin                       50
+
+
+PID     FULLNAME                                 
+------- -----------------------------------------
+1787433 Robert Thompson                          
+8001203 Juan Gonzalez                            
+8344432 Anita Singh                              
+
+
+DESCRIPTION          FULLNAME                                  PID    
+-------------------- ----------------------------------------- -------
+Flu Shot             Vivian Wu                                 6776775
+Electrocardiogram    Reed Richards                             5434533
+
+
+DESCRIPTION          TOTALINCOME
+-------------------- -----------
+Flu Shot                      50
+General Anesthesia          1000
+Electrocardiogram           2600
+Colonscopy                  5500
+Heart Bypass                7500
+

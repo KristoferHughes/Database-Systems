@@ -1,0 +1,87 @@
+
+NAME                                     CITY                 ST
+---------------------------------------- -------------------- --
+Public Library of Newark                 Newark               NJ
+South Hills Library                      Bethel Park          PA
+Fair Lawn Library                        Fair Lawn            NJ
+Three Rivers Library                     Pittsburgh           PA
+
+
+NAME                                    
+----------------------------------------
+Albany NY Library (Main Branch)
+Ann Arbor Main Library
+Main Library of Seminole
+
+
+TITLE                                YEAR      PRICE
+------------------------------ ---------- ----------
+Coyote Frontier                      2010       5.99
+Coyote                               2008       4.99
+
+
+AUTHOR                         AVG(PRICE)
+------------------------------ ----------
+Allen Steele                         5.99
+Jeff Vandermeer                     10.24
+Kim Stanley Robinson                10.99
+
+
+COUNT(TITLE)       YEAR
+------------ ----------
+           2       2008
+           1       2010
+           3       2013
+           1       2015
+           1       2017
+           1       2018
+
+6 rows selected. 
+
+
+ LIBRARYID MIN(COPIES)
+---------- -----------
+         1           1
+        13           1
+         5           3
+         4           1
+         8           1
+        17           1
+        10           3
+
+7 rows selected. 
+
+
+NAME                                    
+----------------------------------------
+Newburgh Free Library
+Hawaii Public Library (Kaneohe Branch)
+Hawaii Public Library (Kaneohe Branch)
+Albany NY Library (Main Branch)
+
+
+TITLE                         
+------------------------------
+Annihilation
+Authority
+New York 2140
+
+
+ISBN       TITLE                              COPIES
+---------- ------------------------------ ----------
+0441011160 Coyote                                  9
+0316098116 2312                                    1
+
+
+        ID     COPIES     ORDERS
+---------- ---------- ----------
+        13         17          6
+         4          9          5
+         8          4          3
+        17          6          3
+        10          7          2
+         5          3          1
+         1          1          1
+
+7 rows selected. 
+
